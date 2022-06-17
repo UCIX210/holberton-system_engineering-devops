@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#script displays contenido
+
+while read -r line
+do
+	echo "$line"
+done </etc/passwd
