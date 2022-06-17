@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# to print the files present in that directory
-
-for i in *
-do
-	echo "$i" | cut -d'-' -f2
-done
